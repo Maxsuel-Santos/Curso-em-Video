@@ -19,7 +19,7 @@ main {
     /*width: 50rem;*/ /* 800px */
     margin: auto;
     background-color: #fff;
-    margin-top: -20px;
+    margin-top: -22px;
     box-shadow: 1px 1px 7px #000;
     border-radius: 0 0 10px 10px;
 }
@@ -72,9 +72,21 @@ p {
     text-indent: 20px;
     text-align: justify;
     margin: 16px 22px;
+    line-height: 2;
+}
+.link {
+    background-color: #3DDC84;
+    padding: 3px;
+    text-decoration: none;
+    color: #1A5C37;
+    font-weight: bolder;
+    border-radius: 5px;
+}
+.link:hover {
+    color: #1a5c37c0;
 }
 #bugdroid {
-    margin: auto;
+    text-align: center; /* Centralizando imagens (põe o tex-align no elemento pai, no caso a div#bugdroid) */
 }
 .video {
     position: relative;
